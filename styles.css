@@ -280,6 +280,22 @@ section {
     margin: 0 auto 3rem;
 }
 
+/* Optimized Mentions List */
+.mentions-list {
+    padding: 0;
+    margin: 0 auto 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the text since your section is text-align: center */
+}
+
+.mention-item {
+    padding: 0;
+    margin-bottom: 0.75rem;
+    color: var(--text-secondary);
+    font-size: 1.125rem;
+}
+
 .social-links {
     display: flex;
     justify-content: center;
@@ -391,3 +407,5 @@ section {
         padding: 0 0.5rem;
     }
 }
+
+
